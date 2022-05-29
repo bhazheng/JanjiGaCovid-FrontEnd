@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #1C3B48;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -9999,6 +9999,8 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
+  font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-large;
 }
 
 @media (min-width: 576px) {

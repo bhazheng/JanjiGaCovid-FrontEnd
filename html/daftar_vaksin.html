@@ -30,7 +30,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary">JANJI</span>GACOVID</a>
+        <a class="navbar-brand" href="#" style= "color:#358C98; font-weight:bolder;">
+          <span class="text-primary">JANJI</span>GACOVID</a>
 
         <form action="#">
           <div class="input-group input-navbar">
@@ -45,19 +46,16 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupport">
+        <div class="collapse navbar-collapse" id="navbarSupport" >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="faq.html">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="doctors.html">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">News</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -99,38 +97,83 @@
 
   <div class="page-section">
     <div class="container">
-      <h1 class="text-center wow fadeInUp">Formulir Pendaftaran Vaksin</h1>
+      <h1 class="text-center wow fadeInUp" style= color:#fff><strong>FORMULIR PENDAFTARAN VAKSIN</h1>
 
       <form class="main-form">
         <div class="row mt-5 ">
-          <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
-            <h1>
-            <input type="text" class="form-control" placeholder="Full name">
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Nama Lengkap</h6>
+            <input type="text" class="form-control" placeholder="Type Here" required>
           </div>
-          <div class="col-12 col-sm-6 py-2 wow fadeInRight">
-            <input type="text" class="form-control" placeholder="Email address..">
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>NIK</h6>
+            <input type="text" class="form-control" placeholder="Type Here" required>
           </div>
-          <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms">
-            <input type="date" class="form-control">
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+          <h6>Tanggal Lahir</h6>
+            <input type="date" class="form-control" placeholder="Tanggal Lahir" required>
           </div>
-          <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
-            <select name="departement" id="departement" class="custom-select">
-              <option value="general">General Health</option>
-              <option value="cardiology">Cardiology</option>
-              <option value="dental">Dental</option>
-              <option value="neurology">Neurology</option>
-              <option value="orthopaedics">Orthopaedics</option>
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Jenis Kelamin</h6>
+            <select name="departement" id="departement" class="custom-select" required>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
             </select>
           </div>
-          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-            <input type="text" class="form-control" placeholder="Number..">
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Email Aktif</h6>
+            <input type="email" class="form-control" placeholder="Type Here" required>
           </div>
-          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Alamat Domisili</h6>
+            <input type="text" class="form-control" placeholder="Type Here" required>
           </div>
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Provinsi</h6>
+            <select name="departement" id="departement" class="custom-select" required>
+              <option value="general">Jawa Timur</option>
+            </select>
+          </div>
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Kota/Kabupaten</h6>
+            <select name="departement" id="departement" class="custom-select" required>
+            <option value="Kota Malang">Kota Malang</option>
+            <option value="Kabupaten Malang">Kabupaten Malang</option>
+            </select>
+          </div>
+          <div class="col-12 py-2 wow fadeInLeft" style= "color:#fff; font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;">
+            <h6>Pilih Lokasi Vaksin</h6>
+            <select name="departement" id="departement" class="custom-select" required>
+            <option value="RS Saiful Anwar">RS Saiful Anwar</option>
+            <option value="RSUD Kota Malang">RSUD Kota Malang</option>
+            <option value="RS Lavalette">RS Lavalette</option>
+            <option value="RST Soepraoen">RST Soepraoen</option>
+            <option value="RS Hermina">RS Hermina</option>
+            <option value="RSI Unisma">RSI Unisma</option>
+            <option value="Puskesmas Kedungkandang">Puskesmas Kedungkandang</option>
+            <option value="Puskesmas Gribig">Puskesmas Gribig</option>
+            <option value="Puskesmas Arjowinangun">Puskesmas Arjowinangun</option>
+            <option value="Puskesmas Janti">Puskesmas Janti</option>
+            <option value="Puskesmas Ciptomulyo">Puskesmas Ciptomulyo</option>
+            <option value="Puskesmas Mulyorejo">Puskesmas Mulyorejo</option>
+            <option value="Puskesmas Arjuno">Puskesmas Arjuno</option>
+            <option value="Puskesmas Bareng">Puskesmas Bareng</option>
+            <option value="Puskesmas Rampal Celaket">Puskesmas Rampal Celaket</option>
+            <option value="Puskesmas Kendal Kerep">Puskesmas Kendal Kerep</option>
+            <option value="Puskesmas Cisadea">Puskesmas Cisadea</option>
+            <option value="Puskesmas Pandanwangi">Puskesmas Pandanwangi</option>
+            <option value="Puskesmas Dinoyo">Puskesmas Dinoyo</option>
+            <option value="Puskesmas Kendalsari">Puskesmas Kendalsari</option>
+            <option value="Puskesmas Mojolangu">Puskesmas Mojolangu</option>
+            <option value="Puskesmas Polowijen">Puskesmas Polowijen</option>
+            </select>
+          </div>
+          <!--<div class="col-12 col-sm-6 py-2 wow fadeInLeft">-->
+          <!--<input type="text" class="form-control" placeholder="Alamat Email">-->
+          <!--</div>-->
         </div>
 
-        <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit Request</button>
+        <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit</button>
       </form>
     </div>
   </div> <!-- .page-section -->
