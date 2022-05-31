@@ -23,11 +23,11 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.5;
-  color: #343531;
+  color: #FFFFFF;
 }
 
 a {
-  color: #07be94;
+  color: #358C98;
   text-decoration: none;
   background-color: transparent;
 }
@@ -124,7 +124,7 @@ a.bg-grey:hover, a.bg-grey:focus {
 }
 
 .bg-light {
-  background-color: #F5F9F6 !important;
+  background-color: #1C3B48 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus {
@@ -196,7 +196,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-grey {
-  color: #6E807A !important;
+  color: #FFFFFF !important;
 }
 
 a.text-grey:hover, a.text-grey:focus {
@@ -1080,21 +1080,21 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
+  width: 982px;
+  height: 568px;
   text-align: center;
   overflow: hidden;
 }
 
 .img-place > img {
-  width: 100%;
-  height: 100%;
+  width: 982px;
+  height: 568px;
 }
 
 .bg-image {
   position: relative;
   background-position: center center;
-  background-size: cover;
+  background-size: center;
   background-repeat: no-repeat;
 }
 
@@ -1802,7 +1802,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .custom-img-1 {
   width: auto;
-  max-width: 390px;
+  max-width: 982px;
 }
 
 .custom-index {
