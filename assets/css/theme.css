@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: #07be94;
+  color: #358C98;
   text-decoration: none;
   background-color: transparent;
 }
@@ -1081,15 +1081,15 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   text-align: center;
   overflow: hidden;
 }
 
 .img-place > img {
-  width: 100%;
-  height: 100%;
+  width: 982px;
+  height: 568px;
 }
 
 .bg-image {
