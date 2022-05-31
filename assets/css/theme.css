@@ -1095,7 +1095,7 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-image {
   position: relative;
   background-position: center center;
-  background-size: cover;
+  background-size: center;
   background-repeat: no-repeat;
 }
 
@@ -1800,7 +1800,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .custom-img-1 {
   width: auto;
-  max-width: 390px;
+  max-width: 990px;
 }
 
 .custom-index {
