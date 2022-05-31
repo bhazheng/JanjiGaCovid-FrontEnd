@@ -195,6 +195,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  width: 982px;
 }
 
 svg {
@@ -636,7 +637,7 @@ pre code {
 }
 .col-lg-6{
   position: relative;
-  width: 422px;
+  width: 982px;
   padding-right: 15px;
   padding-left: 15px;
 }
