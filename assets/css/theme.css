@@ -1,7 +1,6 @@
 /*
   Template Name: One-health
   Template URI: https://macodeid.com/projects/one-health
-  Copyright: MACode ID, https://macodeid.com/
   License: Creative Commons 4.0
   License URI: https://creativecommons.org/licenses/by/4.0/
   Version: 1.0
@@ -1722,13 +1721,15 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   padding-top: 80px;
   padding-bottom: 16px;
-  background-color: #2D3B38;
+  background-color: #fff;
   color: #fff;
+  
 }
 
 .page-footer h5 {
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 16px;
+  color : #358C98;
 }
 
 .page-footer hr {
@@ -1739,6 +1740,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   list-style: none;
   padding-left: 0;
+  font-size:medium;
 }
 
 .footer-menu a,
@@ -1746,14 +1748,14 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
   padding-top: 6px;
   padding-bottom: 6px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #1C3B48;
   transition: all .2s ease;
 }
 
 .footer-menu a:hover,
 .footer-link:hover {
   text-decoration: none;
-  color: #fff;
+  color: #358C98;
 }
 
 .footer-link {
@@ -1769,13 +1771,13 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50%;
   text-align: center;
   font-size: 18px;
-  background-color: #26312F;
-  color: #ffff;
+  background-color: #fff;
+  color: #358C98;
   transition: all .2s ease;
 }
 
 .footer-sosmed a:hover {
-  background-color: #00D9A5;
+  background-color: #1C3B48;
   text-decoration: none;
 }
 
