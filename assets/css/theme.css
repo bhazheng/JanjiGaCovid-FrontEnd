@@ -1081,8 +1081,8 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
-  width: auto;
-  height: auto;
+  width: 982px;
+  height: 568px;
   text-align: center;
   overflow: hidden;
 }
