@@ -10008,6 +10008,7 @@ button.bg-dark:focus {
   text-align: center !important;
   font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: xx-large;
+  font-style: normal;
 }
 
 @media (min-width: 576px) {
