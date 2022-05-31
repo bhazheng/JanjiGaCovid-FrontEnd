@@ -1317,7 +1317,7 @@ a.text-dark:hover, a.text-dark:focus {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 305px;
   background-color: rgba(52, 53, 49, 0.36);
   opacity: 0;
   transition: opacity .2s linear;
