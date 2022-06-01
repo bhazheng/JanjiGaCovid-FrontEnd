@@ -877,11 +877,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .breadcrumb-dark .breadcrumb-item a {
-  color: #00D9A5;
+  color: #358C98;
 }
 
 .breadcrumb-dark .breadcrumb-item a:hover {
-  color: #07be94;
+  color: #fff;
   text-decoration: none;
 }
 
