@@ -26,7 +26,7 @@
   <div class="back-to-top"></div>
 
   <header>
-    <img src="../assets/img/Group 19.png" class="panah"><a class="a" href="index.html"></a></img>
+    <a class="a" href="index.html"><img src="../assets/img/Group 19.png" class="panah"></a>
     <h1 class="daftar">Daftar</h1>
 
     
@@ -89,6 +89,7 @@
         </div>
 
         <button type="submit" class="btn btn-daftar mt-3 wow zoomIn">Daftar</button>
+        <p class="p">Sudah punya akun?<span class="login"> Login</span></p>
       </form>
     </div>
   </div> <!-- .page-section -->
@@ -152,8 +153,44 @@ height: 30px;
 left: 100px;
 top: 48px;
 }
-a{
+.a{
     cursor:pointer;
+    transition: all .2s
+}
+.p{
+    position: absolute;
+left: 35.35%;
+right: 35.35%;
+top: 85.57%;
+bottom: 25.29%;
+
+font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.login{
+    position: absolute;
+left: 65.35%;
+right: 35.35%;
+top: 85.57%;
+bottom: 25.29%;
+
+font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+
+text-align: center;
+
+color: #358C98;
+
 }
 </style>
 </html>
