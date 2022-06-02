@@ -141,6 +141,8 @@ a.bg-dark:hover, a.bg-dark:focus {
 
 .text-primary {
   color: #fff !important;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -905,6 +907,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 600;
   padding-top: 10px;
   padding-bottom: 10px;
+  
 }
 
 .navbar-nav {
@@ -1717,7 +1720,17 @@ height: 30px;
 left: 100px;
 top: 48px;
 }
-
+.buttonLog{
+  display: block;
+  max-width: 700px;
+width: 450px;
+height: 45px;
+margin: 0 auto;
+align-content: center;
+color: #fff;
+  background-color: #358C98;
+  border-color: transparent;  
+}
 .banner-home {
   padding: 0;
   background-color: #00D9A5;
