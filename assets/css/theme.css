@@ -141,8 +141,49 @@ a.bg-dark:hover, a.bg-dark:focus {
 
 .text-primary {
   color: #fff !important;
-  font-size: larger;
+}
+
+.text-login {
+  color: #fff !important;
+  font-size:large;
+  font-weight:bolder;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p{
+  position: absolute;
+left: 35.35%;
+right: 35.35%;
+top: 85.57%;
+bottom: 25.29%;
+
+font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.login{
+  position: absolute;
+left: 65.35%;
+right: 35.35%;
+top: 85.57%;
+bottom: 25.29%;
+
+font-family: 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style:initial;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+
+text-align: center;
+
+color: #358C98;
+
 }
 
 a.text-primary:hover, a.text-primary:focus {
